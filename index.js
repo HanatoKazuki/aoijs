@@ -1,5 +1,7 @@
+// Everytime you're creating a new event / bot which different languages you will have to const and required the package correctly.
 const { AoiClient } = require("aoi.js");
 
+// Bot Setup Section
  const client = new AoiClient({
   token: "Discord Bot Token", // Your Bot Token
   prefix: "Discord Bot Prefix", // Your default bot prefix.
@@ -13,7 +15,9 @@ const { AoiClient } = require("aoi.js");
     securityKey: "a-32-characters-long-string-here", // Don't change anything here if you're not sure what you're doing.
   }
  });
+
 // The dictionary of your commands handle folder locations.
 client.loadCommands("./commands/", true);
+
 // The dictionary of your variables handle file locations.
 require("./handler/variables.js")(client)
