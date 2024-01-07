@@ -9,4 +9,4 @@
 - Message command only able to trigger when the start of your text is match to the default prefix of the bot.
 - As for Slash command, it have already say it by the name itself, slash command the prefix starts with "/" and once you have typed the "/" discord itself would display different kind of slash command that the bot have created.
 
-### For Further explanation you may visit [official aoi.js website](https://aoi.js.org)
+### For Further Explanation You May Visit [Official Aoi.js Website](https://aoi.js.org)
