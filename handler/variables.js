@@ -6,6 +6,7 @@ module.exports = (client) => {
     exp: 0,
     maxexp: 0,
     welcomer: false,
+    welcomertype: "message",
     welcomerchannel: "0000",
     welcomermessage: "Welcome To The Guild, {user.mention}!",
     welcomerembedsmessage: {"title": "{guild.name}", "description": "Welcome To The Server, {user.mention}!", "color": "White", "image": ""}
